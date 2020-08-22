@@ -16,7 +16,7 @@
 
 >>GND--GND (PIN 9)
 
-Servo--RPi3
+## Servo--RPi3
 
 >> BLACK WIRE---GND(PIN 6)
 
@@ -29,7 +29,7 @@ Servo--RPi3
 
 >> Type raspi-config >> Select Advanced options >> Select I2C
 
-#--Download the main.py, imulib module and complimentary module present in the repo. into the RPi in a single folder--#
+# Download the main.py, imulib module and complimentary module present in the repo. into the RPi in a single folder
 
 >>Execute main.py in the terminal and observe the servo replicating the pitch of the MPU9250 sensor.
 
