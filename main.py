@@ -18,7 +18,7 @@ imu.calibrate_mag()
 # complementary filter to fuse data
 sensor_fusion = COMPLEMENTARY()
 
-pin = 22
+pin = 11
 pwm_frequency = 50
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(pin, GPIO.OUT)
@@ -46,7 +46,7 @@ while True:
             time.sleep(1)
 
     except KeyboardInterrupt:
-        print("exiting the program")
+        print("exiting the program!")
         break
 
 
