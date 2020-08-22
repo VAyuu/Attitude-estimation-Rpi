@@ -7,9 +7,8 @@ Pitch is used to further control a servo arm to demonstrate the reliability of t
 
 MPU9250--RPi3
 
-SDA--SDA
-
-SCL--SCL
+>>SDA--SDA
+>>SCL--SCL
 
 VCC--3V
 
