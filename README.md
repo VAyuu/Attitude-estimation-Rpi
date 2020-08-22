@@ -29,7 +29,8 @@
 
 >> Type raspi-config >> Select Advanced options >> Select I2C
 
-# Download the main.py, imulib module and complimentary module present in the repo. into the RPi in a single folder
+# Download the files
+>>Download the main.py, imulib module and complimentary module present in the repo. into the RPi in a single folder
 
 >>Execute main.py in the terminal and observe the servo replicating the pitch of the MPU9250 sensor.
 
