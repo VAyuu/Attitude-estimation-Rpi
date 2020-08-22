@@ -23,7 +23,7 @@ pwm_frequency = 50
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(pin, GPIO.OUT)
 pwm = GPIO.PWM(pin, pwm_frequency)
-pwm.start(0)
+pwm.start(2.5) #initializing the servo.
 
 while True:
     try:
